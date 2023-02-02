@@ -25,10 +25,15 @@ python manage.py runserver
 ```
 #### API List
 Create task: http://localhost:8000/api/task-create/
+
 Task List: http://localhost:8000/api/todo-list/
+
 Task Detail: http://localhost:8000/api/task-detail/{id}
+
 Update task: http://localhost:8000/api/task-updates/{id}
+
 Delete task: http://localhost:8000/api/task-delete/{id}
+
 #### Create task (http://localhost:8000/api/task-create/)
 Input content as below.
 ```
